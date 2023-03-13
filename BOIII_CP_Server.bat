@@ -7,7 +7,7 @@
 :://            Make sure you Port Forward both UDP & TCP              //
 ::///////////////////////////////////////////////////////////////////////
 
-set GamePort=28960
+set GamePort=27017
 
 ::///////////////////////////////////////////////////////////////////////
 ::// Below edits are optional unless you run multiable servers or mods.//
@@ -33,4 +33,4 @@ set ServerFilename=server_cp.cfg
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
 ::///////////////////////////////////////////////////////////////////////
 
-start boiii.exe -dedicated +set fs_game "%ModFolderName%" +set net_port "%GamePort%" +exec %ServerFilename%
+start boiii.exe -dedicated +set fs_game "%ModFolderName%" +set net_port "%GamePort%" +set logfile 2 +exec %ServerFilename%
