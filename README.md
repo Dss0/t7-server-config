@@ -22,12 +22,28 @@ Unranked Server/boiii/lobby_scripts/zombie/__init__.lua
 ```
 3. For Zombie Dedis to work they need to have the Zombies Maps and common FastFiles, these do not come with the Unranked Server Files. This means you need to copy those over from your BO3 Game Folder.
 
-Copy:
+Copy common fastfiles:
 ```
+zone/en_zm_patch.ff
+zone/en_zm_common.ff
+zone/zm_patch.ff
 zone/zm_common.fd
 zone/zm_common.ff
 zone/zm_levelcommon.ff
 ```
-from your BO3 Game folder into the Unranked Server's ```zone``` Folder. Do the same with the FastFiles of the Maps you want to host on the Server, you do not need to copy the .xpak files, those hold Textures and Sounds which the Server doesn't need.
+Now for the map. Shadows of Evil is zm_zod. 
+
+```
+zone/en_zm_zod.ff
+zone/en_zm_zod_patch.ff
+zone/zm_zod.ff
+zone/zm_zod_patch.ff
+```
+You can use the zm_server.cfg as a short name references if you want to grab the others.
+
+
+from your BO3 Game folder into the Unranked Server's ```zone``` Folder. Do the same with the FastFiles of the Maps you want to host on the Server, you do not need to copy the .xpak files, those hold Textures and Sounds which the Server doesn't need. 
+
+If the server still instantly closes while opening the BOIII_ZM_Server.bat or BOIII_CP_Server.bat. Check the console_mp.log from identities\dedicatedpc\ folder. Scroll down until you see "Could not find zone: xxxx".
 
 4. You are now ready to start the Server using BOIII_ZM_Server.bat. Do note that the Map Rotation doesn't start automatically right now, this means you have to type ```map_rotate``` into the Server Console after it has finished loading to load the first Map.
