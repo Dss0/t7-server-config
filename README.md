@@ -42,6 +42,6 @@ zone/zm_zod_patch.ff
 
 from your BO3 Game folder into the Unranked Server's ```zone``` Folder. Do the same with the FastFiles of the Maps you want to host on the Server, you do not need to copy the .xpak files, those hold Textures and Sounds which the Server doesn't need. You can use the zm_server.cfg as a short name references if you want to grab the others.
 
-If the server still instantly closes while opening the BOIII_ZM_Server.bat or BOIII_CP_Server.bat. Check the console_mp.log from identities\dedicatedpc\ folder. Scroll down until you see "Could not find zone: xxxx".
-
 4. You are now ready to start the Server using BOIII_ZM_Server.bat. Do note that the Map Rotation doesn't start automatically right now, this means you have to type ```map_rotate``` into the Server Console after it has finished loading to load the first Map.
+
+If the server still instantly closes while opening the BOIII_ZM_Server.bat or BOIII_CP_Server.bat. Check the console_mp.log from identities\dedicatedpc\ folder. Scroll down until you see "Could not find zone: xxxx".
