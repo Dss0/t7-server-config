@@ -3,7 +3,7 @@ Config for T7 Dedicated Servers for use with the BOIII Client.
 
 # How to use
 1. Download the BO3 Unranked Dedicated Server via Steam (It's located in the "Tools" section in your steam library.)
-2. Open the Unranked Server folder in windows explorer (Ff you own BO3 on Steam and have it installed it will be in your BO3 Game Folder)
+2. Open the Unranked Server folder in windows explorer (if you own BO3 on Steam and have it installed it will be in your BO3 Game Folder)
 3. Add boiii.exe to the UnrankedServer Folder
 4. Download this repository and extract startup batch files as well as the boiii and zone folder to the UnrankedServer Folder
 5. Edit the config(s) in /zone to your liking.
@@ -12,9 +12,10 @@ Config for T7 Dedicated Servers for use with the BOIII Client.
 
 # Additional Steps required for hosting Zombies Dedicated Servers
 As of right now you need to take additional Steps to host Zombies Servers.
-For Zombie Dedis to work they need to have the Zombies Maps and common FastFiles, these do not come with the UnrankedServer Files. This means you need to copy those over from your BO3 Game Folder.
+For Zombie Dedis to work they need to have the Zombies Maps and common FastFiles, these do not come with the UnrankedServer Files. This means you need to copy those over from your installed BO3 game folder.
 
-Copy common fastfiles:
+Copy common fastfiles that is needed for zombies.
+
 ```
 zone/en_zm_patch.ff
 zone/en_zm_common.ff
@@ -23,6 +24,7 @@ zone/zm_common.fd
 zone/zm_common.ff
 zone/zm_levelcommon.ff
 ```
+
 Now for the map. Shadows of Evil is zm_zod. 
 
 ```
