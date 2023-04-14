@@ -7,6 +7,7 @@ Config for T7 Dedicated Servers for use with the BOIII Client.
 3. Add boiii.exe to the UnrankedServer Folder
 4. Download this repository and extract startup batch files as well as the boiii and zone folder to the UnrankedServer Folder
 5. Edit the config(s) in /zone to your liking.
+6. (Optional) Edit your game rules under boiii/gamesettings/mp.
 6. Port forward UDP 27017.
 7. Start the Server using BOIII_MP_Server.bat or BOIII_ZM_Server.bat
 
