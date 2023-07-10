@@ -13,10 +13,12 @@ set name=BOIII Nameofserver
 :://     This will help identify which window needs closing in case the   //
 :://     server errors out or freezes according to filename on g_log      //
 :://                                                                      //
-:://     If hosting multiable. I would suggest putting your hostname      //
-:://          Example: Default BOIII Server  on mp_                       //
+:://     If hosting multiple servers. I would suggest putting individual  //
+:://         hostnames                                                    //
 :://                                                                      //
-:://     No color codes! This is base off your server window title!       //
+:://             Example: Default BOIII Server on mp_                     //
+:://                                                                      //
+:://     No color codes! This is based off your server window title!      //
 :://////////////////////////////////////////////////////////////////////////
 
 set server_title_regex=on zm_           // Or "on mp_
@@ -24,7 +26,7 @@ set server_title_regex=on zm_           // Or "on mp_
 :://////////////////////////////////////////////////////////////////////////
 :://                  Your Game Server Port. (Optional)                   //
 :://                                                                      //
-:://  Make sure you Port Forward UDP on your router and Windows Advaned   //
+:://  Make sure you Port Forward UDP on your router and Windows Advanced  //
 :://  Firewall. See https://portforward.com/                              //
 :://////////////////////////////////////////////////////////////////////////
 
@@ -48,7 +50,7 @@ set check_rate=720
 
 :://////////////////////////////////////////////////////////////////////////
 :://                  Server log location and filename                    //
-:://          Only change if you hosting more then 1 server               //
+:://          Only change if you host more then 1 server                  //
 :://      Unless you change g_log on server.cfg then match with that.     //
 :://////////////////////////////////////////////////////////////////////////
 
@@ -69,7 +71,7 @@ set ModFolderName=
 
 :://////////////////////////////////////////////////////////////////////////
 ::// 	Your edited server.cfg in the "zone" folder goes here...          //
-:://	This is were you edit your hostname, rcon, inactivity, etc        //
+:://	This is where you edit your hostname, rcon, inactivity, etc       //
 :://        (Only change if you hosting more then 1 server)               //
 :://////////////////////////////////////////////////////////////////////////
 
