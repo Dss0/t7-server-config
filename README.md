@@ -1,3 +1,5 @@
+# The BOIII Client was shut down earlier this year following a C&D by Activision, this Repo is now obsolete.
+
 # T7 Server Config
 Config for T7 Dedicated Servers for use with the BOIII Client.
 
