@@ -1,6 +1,6 @@
 @echo off
 ::///////////////////////////////////////////////////////////////////////
-::///  	     BOIII Dedicated Server Configuration start-up file       ///
+::///  	      T7x Dedicated Server Configuration start-up file        ///
 ::///////////////////////////////////////////////////////////////////////
 :://                                                                   //
 :://                    Your Game Server Port.	       	       	       //
@@ -27,10 +27,10 @@ set ModFolderName=
 :://                          (Optional)                               //
 ::///////////////////////////////////////////////////////////////////////
 
-set ServerFilename=server_cp.cfg
+set ServerFilename=server_zm.cfg
 
 ::///////////////////////////////////////////////////////////////////////
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
 ::///////////////////////////////////////////////////////////////////////
 
-start boiii.exe -dedicated +set fs_game "%ModFolderName%" +set net_port "%GamePort%" +set logfile 2 +exec %ServerFilename%
+start t7x.exe -dedicated +set fs_game "%ModFolderName%" +set net_port "%GamePort%"  +set logfile 2 +exec %ServerFilename%
