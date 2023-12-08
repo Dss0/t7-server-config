@@ -1,3 +1,5 @@
+# T7x was short lived.. this can still be used with other clients based on boiii, the "t7x" folder may have to be renamed to whatever the other client uses.
+
 # T7 Server Config
 Config for T7 Dedicated Servers for use with the T7x Client.
 
