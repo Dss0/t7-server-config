@@ -12,11 +12,11 @@ set GamePort=27017
 ::///////////////////////////////////////////////////////////////////////
 ::// Below edits are optional unless you run multiable servers or mods.//
 ::///////////////////////////////////////////////////////////////////////
-:://               Load a mod on your server                           //
-:://	           Example: ModfolderName=mods/bots                    //
+:://       Load a mod on your server using the Steam Workshop ID       //
+:://           of the Mod. Example: ModfolderName=2833912385           //
 :://                                                                   //
-:://               UNLOAD a mod on your server                         //
-:://               Example: ModfolderName=                             //
+:://       Unload a mod on your server by removing the Steam           //
+:://             Workshop ID. Example: ModfolderName=                  //
 ::///////////////////////////////////////////////////////////////////////
 
 set ModFolderName=
